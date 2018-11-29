@@ -1,0 +1,19 @@
+{
+  "datastore": {
+    "type": "postgres",
+    "name": "Postgres Pro Std 10",
+    "addr": "192.168.56.101:5432",
+    "user": "postgres",
+    "password": "1qaz@WSX",
+    "database": "bz_client"
+  },
+  "bus": {
+    "type": "nats",
+    "name": "Go NATS Server 1.0.4",
+    "urls": "nats://192.168.56.101:4222",
+    "timeout": "500ms"
+  },
+  "http": {
+    "port": "3000"
+  }
+}
