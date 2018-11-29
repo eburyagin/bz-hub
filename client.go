@@ -19,5 +19,5 @@ func listClients(w http.ResponseWriter, r *http.Request, app *app.AppContext) {
 		http.Error(w, http.StatusText(500), 500)
 		return
 	}
-	json.NewEncoder(w).Encode(resp)
+	json.NewEncoder(w).Encode(resp.Data)
 }
